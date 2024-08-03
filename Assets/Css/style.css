@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgba(194, 145, 150, 0.8);
+}
+
+.card{
+    background: linear-gradient(rgba(210, 8, 8, 0.23),rgba(123,34,45,.9));
+    box-shadow: 5px 9px rgba(123,34,45,.9);
+    
+}
+.postCard h3{
+   white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 40px;
+    
+}
+.but{
+    background-color: rgba(227, 217, 12, 0.9) !important;
+}
+
+.loader{
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
